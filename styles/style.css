@@ -136,21 +136,20 @@ header {
 
 /*Quote Section */
 .quote-section{
-    background-image: url("../assets/quote-bg.png");
-    background-repeat: no-repeat;
-    margin-top: 32px;
-    box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
+    padding: 40px 20px;
     background-color: rgb(255, 255, 255);
-    padding: 5px 24px 48px 24px;
+    margin-top: 32px;
 }
 .quote-text{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    padding-top: 30px;
     color: rgba(14, 14, 14, 0.8);
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
-    text-align: left;
 }
 .quote-author{
     color: rgba(14, 14, 14, 0.8);
@@ -163,6 +162,15 @@ header {
     font-size: 16px;
     font-weight: 400;
     text-align: left;
+}
+
+.news-heading{
+    color: rgb(14, 14, 14);
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+
 }
 
 /*news section*/
