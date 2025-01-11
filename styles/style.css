@@ -4,6 +4,8 @@
     padding: 17px 34px;
     background-color: rgb(0, 106, 80);
     border-radius: 8px;
+    border: none;
+    color: white;
 }
 
 main {
@@ -141,7 +143,7 @@ header {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
-    padding: 48px 24px 48px 24px;
+    padding: 5px 24px 48px 24px;
 }
 .quote-text{
     color: rgba(14, 14, 14, 0.8);
@@ -154,13 +156,45 @@ header {
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: 600;
-    line-height: 24px;
     text-align: left;
 }
 .quote-title{
     color: rgba(14, 14, 14, 0.6);
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
     text-align: left;
+}
+
+/*news section*/
+.news-item{
+    display: flex;
+    gap: 35px;
+    padding: 48px;
+}
+.news-content{
+background-color: rgb(255, 255, 255);
+}
+.news-image{
+    border-radius: 24px;
+}
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+}
+.news-source-logo{
+    margin-top: -20px;
+}
+.news-date-time{
+    display: flex;
+    gap: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.news-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
 }
