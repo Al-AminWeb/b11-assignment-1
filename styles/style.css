@@ -198,3 +198,59 @@ background-color: rgb(255, 255, 255);
     font-weight: 400;
     margin-bottom: 32px;
 }
+.donation-section{
+    text-align: center;
+}
+.donation-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.donation-description{
+    color: rgb(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.donation-options{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.donation-options div{
+    width: 240px;
+    height: 65px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.taka-1:hover{
+    background-color: rgba(222, 155, 7, 0.8);
+}
+.taka-2{
+    background-color: rgb(198, 228, 214);
+}
+.taka-3:hover{
+    background-color: rgba(21, 56, 169, 0.8);
+}
+.taka-4:hover{
+    background-color: rgba(221, 56, 169, 0.8);
+}
+.donation-section input{
+    display: block;
+    width: 980px;
+    height: 64px;
+    text-align: center;
+    margin: 0 160px 32px 80px;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+}
