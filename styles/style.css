@@ -254,3 +254,74 @@ background-color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 400;
 }
+
+/*news letter section*/
+.newsletter-section{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    width: 1280px;
+    height: 395px;
+    text-align: center;
+    margin-top: 80px;
+
+}
+.newsletter-header{
+   padding: 50px 100px;
+}
+.newsletter-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.newsletter-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin:0 64px 24px 64px;
+}
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.newsletter-section input{
+    width: 600px;
+    height: 30px;
+    padding: 18px 40px;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 0;
+}
+.newsletter-section button{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    background-color: rgb(0, 106, 80);
+    border-radius: 0 8px 8px 0;
+    margin-right: 0;
+    border: none;
+}
+.newsletter-section button:hover{
+    background-color:lightseagreen;
+    color: darkolivegreen;
+}
+hr{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    width: 1122px;
+}
+.footer-container{
+    padding: 50px 160px;
+   text-align: center;
+   }
+.footer-links{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-top:25px ;
+}
